@@ -38,27 +38,40 @@
     display: inline;
     color: #333;
     font-weight: normal;
+    font-size: 14px;
     text-decoration: underline;
 }
 
 .text_two{
     float: right;
     text-decoration: underline;
+    font-size: 14px;
     
 }
 .nav_two ul{
-    display: flex;
-    list-style: none;
     color: white;
     background-color: #333;
     padding: 10px;
-    /* margin-left: 10px */
-    
-    
+    height: 60px;
+    /* position: relative; */
+    display: flex;
+     
 }
-.nav_two ul li{
-    margin: 5px;
+.emirates_img{
+    margin-left: 13em;
+    /* position: absolute; */
+    margin-top: -10px;
+    margin-right: 5px;
 }
-.nav_two ul p{
-    display: inline;
+
+.nav_two ul span{
+    padding: 10px;
+    font: bold;
+    font-size: 14px;
+    margin-left: 2px;
 }
+
+
+
+
+
