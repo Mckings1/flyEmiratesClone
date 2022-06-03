@@ -57,21 +57,110 @@
     display: flex;
      
 }
+.nav_two ul a{
+    text-decoration: none;
+    color: white;
+}
 .emirates_img{
     margin-left: 13em;
-    /* position: absolute; */
+    position: relative;
     margin-top: -10px;
     margin-right: 5px;
 }
 
-.nav_two ul span{
+.nav_two ul li{
     padding: 10px;
     font: bold;
     font-size: 14px;
     margin-left: 2px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.ngLogin{
+    /* background-color: #d71921; */
+       margin-left: 15vw;
+       margin-top: 5px;
+}
+.ngLogin img{
+    padding: 1px;
+    margin-left: 2vw;
+    
+    
+}
+section img{
+    z-index: 1;
+    margin-top: -20px;
+    width: 100%;
+
 }
 
 
 
+.flyBetterImg{
+    /* width: 300px; */
+    height: 50px;
+    /* background-color: #d71921; */
+    float: right;
+    margin-top: -45vh;
+    position: relative;
+    margin-right: 15vw;
+}
+.learnMore{
+    /* background-color: blue; */
+    color: rgb(255, 255, 255);
+    width: 575px;
+    float: left;
+    position: relative;
+    margin-top: -40vh;
+    margin-left: 14em;
+    padding: 10px;
+    height: auto;
+}
+.learnMore h4{
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.learnMore h1{
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.learnMore h5{
+    /* float: right; */
+    margin-left: 21vw;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.learnMore button{
+    background-color: #d71921;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    color: white;
+    font-weight: 700;
+    width: 150px;
+    position: relative;
+
+}
+.second_section{
+    background-color: red;
+    height: 60vh;
+}
+.ssfirst_div{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    height: 300px;
+    width: 1088px;
+    margin: auto;
+    border-radius: 2px;
+    margin-top: -65px;
+    position: relative;
+
+}
 
