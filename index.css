@@ -96,8 +96,6 @@ section img{
 
 }
 
-
-
 .flyBetterImg{
     /* width: 300px; */
     height: 50px;
@@ -149,11 +147,12 @@ section img{
 
 }
 .second_section{
-    background-color: red;
+    background-color: whitesmoke;
     height: 60vh;
 }
+
 .ssfirst_div{
-    background-color: whitesmoke;
+    background-color: white;
     border: 1px solid whitesmoke;
     height: 300px;
     width: 1088px;
@@ -163,4 +162,41 @@ section img{
     position: relative;
 
 }
-
+.row{
+    padding: 5px;
+    /* justify-content: space-around; */
+}
+.covid19{
+    height: 70px;
+    width: auto;
+    border: 1px solid blue;
+    padding: 5px;
+    /* display: flex; */
+}
+.covid19 button{
+    float: right;
+    padding: 5px;
+    border-radius: 4px;
+        
+}
+.third_section{
+    height: 1519px;
+    width: auto;
+    background-color: yellow;
+}
+.TS_thirdss{
+    width: 1088px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.TS_thirdss h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.TS_fourth{
+    /* background-color: #d71921; */
+    width: 1088px;
+    margin: auto;
+    display: flex;
+}

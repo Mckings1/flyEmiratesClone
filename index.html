@@ -7,12 +7,13 @@
     <title>Emirates | Fly Better</title>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
-        <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap-reboot.css">
-        <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
     
 </head>
 <body >
-    <header>
+    <header class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <nav class="nav_one">
             <div class="nav_one_div">
                 <img src="notice_symbol.png" alt="">
@@ -20,7 +21,9 @@
                 <p class="text_two">Show more</p>
             </div>
         </nav>
-        
+    </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <nav class="nav_two"> 
             <ul>
                 <img class="emirates_img" src="emiratesRedlogo.PNG" width="75" height="105" alt="">
@@ -39,6 +42,8 @@
                              
             </ul>
         </nav>
+    </div>
+    </div>
     </header>
 
     <section class="first_section">
@@ -55,11 +60,32 @@
 
     <section class="second_section">
         <div class="ssfirst_div">
-
+                <div class="row">
+                    <div class="col-md-3">Search flights</div>
+                    <div class="col-md-3">Manage booking / Check in</div>
+                    <div class="col-md-3">What's on your flight</div>
+                    <div class="col-md-3">Flight status</div>
+                </div>
+                <hr>
+                <div class="covid19">
+                    <span> Visit our COVID-19 hub for current destinations, travel advice and more </span>
+                    <button>Go to COVID-19 hub</button>
+                </div>
         </div>
-        <div></div>
+        
     </section>
-    <section class="third_section"></section>
+    <section class="third_section">
+                    <div class="TS_thirdss"> 
+                       <p> TRAVEL SUPPORT</p>
+                        <h2>Plan your travel with confidence</h2>
+                        <p>Find help with your bookings and travel plans, and see what to expect along your journey.</p>
+                    </div>
+            <div class = "TS_fourth">
+                <img src="travelSafety.png"  alt="">
+                <img src="travelRequirements.png"  alt="">
+                <img src="towernight.png" alt="">
+            </div>
+    </section>
     <section class="fourth_section"></section>
     <section class="fifth_section"></section>
     <section class="sixth_section"></section>
@@ -67,7 +93,7 @@
     <footer class="bg-secondary"></footer>
 </body>
 
-
-
-    
+<script src="bootstrap-5.0.2-dist/js/jquery.js"></script>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>   
+<script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
 </html>
