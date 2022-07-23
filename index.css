@@ -180,9 +180,10 @@ section img{
         
 }
 .third_section{
-    height: 1519px;
+    /* height: 1519px; */
     width: auto;
-    background-color: yellow;
+    margin-bottom: 10vh;
+    /* background-color: yellow; */
 }
 .TS_thirdss{
     width: 1088px;
@@ -199,4 +200,27 @@ section img{
     width: 1088px;
     margin: auto;
     display: flex;
+}
+
+.img1{
+    height: 534px;
+    width: 534px;
+}
+
+.TS_fifth{
+    height: 262px;
+    width: 262px;
+
+}
+.thrdsecflex{
+    display: flex;
+    width: 1088px;
+    height: 534px;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.fourth_section img{
+    width: 100%;
+    height: 60vh;
 }
